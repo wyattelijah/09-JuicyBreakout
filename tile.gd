@@ -1,9 +1,9 @@
-extends StaticBody2D
+extends Node2D
 
-var blue = preload("res://Assets/21-Breakout-Tiles.png")
-var green = preload("res://Assets/22-Breakout-Tiles.png")
-var purple = preload("res://Assets/23-Breakout-Tiles.png")
-var yellow = preload("res://Assets/26-Breakout-Tiles.png")
+var blue = preload("res://Assets/01-Breakout-Tiles.png")
+var green = preload("res://Assets/03-Breakout-Tiles.png")
+var purple = preload("res://Assets/05-Breakout-Tiles.png")
+var yellow = preload("res://Assets/09-Breakout-Tiles.png")
 var teal = preload("res://Assets/27-Breakout-Tiles.png")
 
 onready var sprite = get_node("Sprite")

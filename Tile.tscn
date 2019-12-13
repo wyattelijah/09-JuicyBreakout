@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://ScriptTile.gd" type="Script" id=1]
-[ext_resource path="res://Assets/21-Breakout-Tiles.png" type="Texture" id=2]
+[ext_resource path="res://tile.gd" type="Script" id=1]
+[ext_resource path="res://Assets/01-Breakout-Tiles.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 53, 37 )
@@ -16,8 +16,8 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 149.5, 131.5 )
-scale = Vector2( 0.867187, 0.601563 )
+position = Vector2( 148.5, 131 )
+scale = Vector2( 0.28125, 0.585938 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
